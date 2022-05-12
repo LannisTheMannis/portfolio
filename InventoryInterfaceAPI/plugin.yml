@@ -1,0 +1,6 @@
+author: Lannis
+name: InventoryInterfaceAPI
+description: Common listener + class for custom GUIs
+main: com.HollowPlugins.InventoryInterfaceAPI.InventoryInterfaceAPI
+version: 1.0.0
+api-version: 1.18

@@ -1,0 +1,19 @@
+author: Lannis
+name: HollowCreativePlots
+description: HollowWorld ambient region plugin
+main: com.HollowPlugins.HollowCreativePlots.HollowCreativePlots
+version: 1.0.0
+api-version: 1.18
+depend: ['HollowCore','HollowPrestige','WorldBorder','WorldGuard','WorldEdit','Vault','HollowUtilities']
+commands:
+    plot:
+        description: Base command
+        permission: HollowCreativePlots.use
+permissions:
+    HollowCreativePlots.admin:
+        description: admin
+        default: op
+        children:
+            HollowCreativePlots.use: true
+    HollowCreativePlots.use:
+        description: Basic user permission
